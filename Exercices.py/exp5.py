@@ -26,6 +26,7 @@ def ajoutcondidat(nom,prenom,adresse,teliphone):
 choix=""
 while(choix!="q"):
 
+
     choix=input("tapez f pour ajouter une formation et c pour ajouter  un candidat q pour quitter")
     if(choix=="q"):
         break
